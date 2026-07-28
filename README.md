@@ -68,14 +68,6 @@ python3 terminal_app.py
 
 Prompts for an employee's details (age, income, satisfaction scores, overtime status, job role, etc.) and returns a resignation risk probability with a recommendation.
 
-**3. Generate chart images (optional)**
-
-```bash
-python3 generate_visuals.py
-```
-
-Produces `confusion_matrix.png` and `feature_importance.png` for reporting or sharing.
-
 ## Design Decisions
 
 - **Fully local**: everything — training, inference, and preprocessing — runs on-device. No API calls, no internet dependency, no data leaves the machine.
